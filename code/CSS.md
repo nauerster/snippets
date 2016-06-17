@@ -7,11 +7,11 @@
 ## Advanced Attribute Selectors
 
 ```
-a[title] 								# Only selects anchor tags that have a title attribute
+a[title] 								          # Only selects anchor tags that have a title attribute
 a[href="http://net.tuts.com"]			# Only selects anchor tags which link to http://net.tuts.com
-a[href*="tuts"]							# The proceeding value must appear somewhere in the attribute's value
-a[href^="http"]							# The proceeding value must appear at the beginning
-a[href$=".jpg"]							# The proceeding value must appear at the end
+a[href*="tuts"]							      # The proceeding value must appear somewhere in the attribute's value
+a[href^="http"]							      # The proceeding value must appear at the beginning
+a[href$=".jpg"]							      # The proceeding value must appear at the end
 
 ```
 
