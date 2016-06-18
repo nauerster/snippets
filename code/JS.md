@@ -40,7 +40,8 @@ nav.addEventListener('click', toggleNav, false);
 
 ```
 
-> Get/Set Attributes
+-**Get/Set Attributes:**
+
 ```javascript
 
 	$(elem).attr('id', 'name');      // set
@@ -51,7 +52,7 @@ nav.addEventListener('click', toggleNav, false);
 
 ```
 
-> Scroll Event
+-**Scroll Event:**
 
 ```javascript
 
