@@ -1,20 +1,7 @@
 [![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
 
 
-# JavaScript
-
-
-## Table of Contents
-
-1. [Arrays](#arrays)
-1. [Functions](#functions)
-1. [Closers](#closers)
-1. [Callbacks](#callbacks)
-1. [Objects](#objects)
-1. [Loops](#loops)
-1. [Conditional Statements](#statements)
-1. [JSON](#json)
-
+# JavaScript Snippets
 
 
 ```javascript
@@ -40,7 +27,7 @@ nav.addEventListener('click', toggleNav, false);
 
 ```
 
--**Get/Set Attributes:**
+**Get/Set Attributes:**
 
 ```javascript
 
@@ -52,7 +39,7 @@ nav.addEventListener('click', toggleNav, false);
 
 ```
 
--**Scroll Event:**
+**Scroll Event:**
 
 ```javascript
 
