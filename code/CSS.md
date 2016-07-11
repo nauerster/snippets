@@ -7,11 +7,11 @@
 ## Advanced Attribute Selectors
 
 ```
-a[title] 								          # Only selects anchor tags that have a title attribute
-a[href="http://net.tuts.com"]			# Only selects anchor tags which link to http://net.tuts.com
-a[href*="tuts"]							      # The proceeding value must appear somewhere in the attribute's value
-a[href^="http"]							      # The proceeding value must appear at the beginning
-a[href$=".jpg"]							      # The proceeding value must appear at the end
+a[title]                          # Only selects anchor tags that have a title attribute
+a[href="http://net.tuts.com"]     # Only selects anchor tags which link to http://net.tuts.com
+a[href*="tuts"]                   # The proceeding value must appear somewhere in the attribute's value
+a[href^="http"]                   # The proceeding value must appear at the beginning
+a[href$=".jpg"]                   # The proceeding value must appear at the end
 
 ```
 
@@ -50,4 +50,20 @@ a[data-info~="external"] {
 a[data-info~="image"] {
 	border: 1px solid black;
 }
+```
+
+
+## Helpful Tips:
+
+#### Stop DIV's from collaspsing when floating child elements
+> Floated divs (float:right; or float:left;) don't contribute the the parent container's height, so if you have a parent div with a child div inside, the parent div will collapse (i.e. have it's height down to zero) if you float the child div left or right.
+
+*How to circumvent this*
+
+```css
+
+div {
+	overflow: auto
+}
+
 ```
