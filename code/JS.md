@@ -106,6 +106,21 @@ function SpliceString(elem) {
 
 ```
 
+**How to check if URl contains a word:**
+
+```javascript
+
+if(window.location.href.indexOf("Desktop") > -1) {
+       alert("Alert: Desktop!");
+}
+
+// or
+
+if(window.location.href.contains("Desktop") > -1) {
+  
+}
+
+```
 
 
 
