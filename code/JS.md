@@ -122,6 +122,16 @@ if(window.location.href.contains("Desktop") > -1) {
 
 ```
 
+** How to return part of a string after a certain character: **
+
+```javascript
+
+  var str = 'ABC: Lorem ipsum sit amet';
+
+      str.substring(0, str.indexOf(":"));
+
+```
+
 **Debugger that shows view port size. Helps when making responsive designs.**
 
 Credit: Todd Motto
